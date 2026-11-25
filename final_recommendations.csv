@@ -1,0 +1,11 @@
+appointment_id,risk_score,risk_flag,root_cause,confidence,summary,recommended_action
+A0872,,,forgot_or_no_reminder,1.0,Patient did not receive a reminder and forgot the appointment.,Reschedule the visit for next week and verify the patient's preferred reminder contact method.
+A0897,,,distance_or_transport,1.0,Patient missed the appointment because they live far away and could not find transportation that morning.,"Reach out to offer telehealth options if appropriate, or assist with transportation resources and rescheduling."
+A0526,,,cost_or_fee,1.0,Patient missed the appointment because the consultation fee was too high this month and inquired about possible follow-up discounts.,"Contact the patient empathetically to discuss available financial assistance programs, payment plans, or sliding-scale options for their care."
+A0926,0.5432214681785194,1.0,other,0.0,No note recorded,No follow-up action; missing note.
+A0534,,,illness_or_emergency,1.0,"Patient missed the appointment due to a high fever and body ache, remaining in bed, and plans to reschedule after recovery.",Reach out to the patient to reschedule the appointment once they have fully recovered.
+A0507,,,work_or_schedule,1.0,Patient missed the appointment due to an urgent workplace meeting and requested an evening slot for future visits.,Reschedule the appointment for an evening time slot and update the patient's preferences.
+A0333,,,forgot_or_no_reminder,1.0,Patient forgot the appointment because they did not receive an SMS reminder and wishes to reschedule.,Help the patient reschedule their appointment and verify their correct mobile number for future SMS reminders.
+A0222,,,distance_or_transport,1.0,Patient missed the appointment due to a city bus strike and lack of available transport near their area.,Contact the patient to offer telehealth options or reschedule when transportation is available.
+A0977,,,other,0.5,Patient could not be reached after three attempts because their phone was switched off.,Send an automated follow-up message via email or mail to offer rescheduling options.
+A0596,,,work_or_schedule,1.0,Patient missed the appointment due to a factory shift change and inability to take leave.,Reschedule the appointment for a Saturday as requested by the patient.
